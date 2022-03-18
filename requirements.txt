@@ -1,0 +1,9 @@
+numpy
+tensorflow == 2.8.0
+tensorflow-gpu == 2.8.0
+opencv
+matplotlib
+sklearn
+scipy
+scikit-image
+seaborn
