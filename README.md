@@ -14,6 +14,7 @@ Install the required libraries:
 
 ```bash
 pip install tensorflow keras opencv-python numpy matplotlib scikit-image seaborn scipy sklearn
+```
 
 ## Usage
 
