@@ -14,3 +14,16 @@ Install the required libraries:
 
 ```bash
 pip install tensorflow keras opencv-python numpy matplotlib scikit-image seaborn scipy sklearn
+
+## Usage
+
+1. **Prepare Dataset**: 
+   - Place 200 brain CT scans (100 normal, 100 abnormal) in the `head_ct/` folder.
+   - The images should be grayscale and named `001.png`, `002.png`, etc.
+
+2. **Run Training and Testing**:
+   - Train the autoencoder and test it by running:
+     ```bash
+     python train_autoencoder.py
+     ```
+   - This script trains the model on normal brain scans, then automatically tests the model on both normal and abnormal scans, producing results like ROC curves and AUC values.
